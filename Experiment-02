@@ -1,0 +1,45 @@
+Aim
+
+To verify and interpret the truth table of NOR, EX-OR and EX-NOR gates.
+
+Apparatus
+
+Breadboard, IC 7402, IC 7486, IC 74266, LED, connecting wires and +5V supply.
+
+Procedure
+
+1. Place the required IC on the breadboard.
+
+
+2. Connect the IC to +5V and GND.
+
+
+3. Connect inputs A and B through switches.
+
+
+4. Connect the output to an LED through a resistor.
+
+
+5. Apply 00, 01, 10 and 11 input combinations.
+
+
+6. Observe and record the output.
+
+
+7. Compare the observed output with the truth table.
+
+
+
+Truth Table
+
+A	B	NOR	XOR	XNOR
+
+0	0	1	0	1
+0	1	0	1	0
+1	0	0	1	0
+1	1	0	0	1
+
+
+Result
+
+The truth tables of NOR, EX-OR and EX-NOR gates were successfully verified.
