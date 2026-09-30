@@ -1,0 +1,42 @@
+Familiarisation of ICs — 7400, 7404, 7486
+
+Aim
+
+To familiarize ourselves with the pin configuration and operation of IC 7400, 7404 and 7486.
+
+ICs Used
+
+IC	Gate
+
+7400	NAND
+7404	NOT
+7486	EX-OR/XOR
+
+
+Procedure
+
+1. Identify the required IC.
+
+
+2. Place the IC correctly on the breadboard.
+
+
+3. Connect VCC (+5V) and GND.
+
+
+4. Identify the input and output pins from the pin diagram.
+
+
+5. Apply different input combinations.
+
+
+6. Observe the output through LED.
+
+
+7. Verify the output with the corresponding truth table.
+
+
+
+Result
+
+The pin configuration and operation of IC 7400, 7404 and 7486 were successfully studied.
