@@ -1,0 +1,106 @@
+Construction of Half Adder and Full Adder using XOR and NAND Gates
+
+Aim
+
+To construct Half Adder and Full Adder using XOR and NAND gates and verify their operation.
+
+Apparatus
+
+Breadboard, XOR/NAND ICs, LED, resistors, connecting wires and +5V supply.
+
+A) Half Adder
+
+Theory/Formulas
+
+SUM = A ⊕ B
+
+CARRY = A · B
+
+Truth Table
+
+A	B	SUM	CARRY
+
+0	0	0	0
+0	1	1	0
+1	0	1	0
+1	1	0	1
+
+
+Procedure
+
+1. Connect the XOR gate for the SUM output.
+
+
+2. Give A and B as inputs to XOR.
+
+
+3. Connect an AND/NAND-based arrangement for CARRY.
+
+
+4. Apply 00, 01, 10 and 11.
+
+
+5. Observe SUM and CARRY.
+
+
+6. Compare with the truth table.
+
+
+
+
+---
+
+B) Full Adder
+
+Inputs
+
+A, B and Cin (Carry-in)
+
+Outputs
+
+SUM and CARRY
+
+Formulas
+
+SUM = A ⊕ B ⊕ Cin
+
+CARRY = AB + (A ⊕ B)Cin
+
+Truth Table
+
+A	B	Cin	SUM	CARRY
+
+0	0	0	0	0
+0	0	1	1	0
+0	1	0	1	0
+0	1	1	0	1
+1	0	0	1	0
+1	0	1	0	1
+1	1	0	0	1
+1	1	1	1	1
+
+
+Procedure
+
+1. Construct the first half-adder using XOR and NAND/AND arrangement.
+
+
+2. Connect its SUM with Cin through another XOR gate.
+
+
+3. Construct the carry section using NAND gates.
+
+
+4. Apply all possible combinations of A, B and Cin.
+
+
+5. Observe SUM and CARRY outputs.
+
+
+6. Compare the observed outputs with the truth table.
+
+
+
+Result
+
+The Half Adder and Full Adder were successfully constructed and their operations were verified.
