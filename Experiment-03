@@ -1,0 +1,48 @@
+Aim
+
+To familiarize ourselves with the general breadboard and its connections.
+
+Apparatus
+
+Breadboard, jumper wires, +5V DC supply, LEDs and resistors.
+
+Procedure
+
+1. Identify the power rails and terminal strips of the breadboard.
+
+
+2. Connect +5V and GND to the power rails.
+
+
+3. Connect the power rails using jumper wires if required.
+
+
+4. Place the components on the breadboard.
+
+
+5. Make series and parallel connections according to the circuit.
+
+
+6. Check the connections.
+
+
+7. Observe the LED operation.
+
+
+
+Virtual Labs specifically describes the breadboard as a solderless board and explains its power-rail and terminal-strip connections. 
+
+Important Points
+
+Breadboard is used for temporary/prototype circuits.
+
+No soldering is required.
+
+Power rails are used for power supply.
+
+Terminal strips are used to connect components.
+
+The centre gap separates the two sides.
+Result
+
+The basic construction and connections of a general breadboard were successfully studied.
