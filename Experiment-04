@@ -1,0 +1,45 @@
+Familiarisation of ICs — 7404, 7432, 7408
+
+Aim
+
+To familiarize ourselves with the pin configuration and operation of IC 7404, 7432 and 7408.
+
+ICs Used
+
+IC	Gate
+
+7404	NOT
+7432	OR
+7408	AND
+
+
+Procedure
+
+1. Identify the IC using its number and notch/marking.
+
+
+2. Place the IC correctly on the breadboard.
+
+
+3. Identify its VCC and GND pins.
+
+
+4. Connect VCC to +5V and GND to ground.
+
+
+5. Identify the input and output pins using the pin diagram.
+
+
+6. Give suitable input combinations.
+
+
+7. Observe the output using LED.
+
+
+8. Compare the output with the corresponding truth table.
+
+
+
+Result
+
+The pin configuration and operation of IC 7404, 7432 and 7408 were successfully studied.
