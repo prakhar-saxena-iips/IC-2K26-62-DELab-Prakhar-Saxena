@@ -1,0 +1,55 @@
+Aim
+
+To verify and interpret the truth table of AND, OR, NOT and NAND gates.
+
+Apparatus
+
+Breadboard, IC 7408, IC 7432, IC 7404, IC 7400, LED, connecting wires and +5V supply.
+
+Procedure
+
+1. Place the required IC on the breadboard.
+
+
+2. Connect VCC (+5V) and GND to the IC.
+
+
+3. Connect the input pins to switches.
+
+
+4. Connect the output pin to LED through a resistor.
+
+
+5. Apply all possible combinations of input 0 and 1.
+
+
+6. Observe the LED/output and note the values.
+
+
+7. Compare the observed values with the respective truth tables.
+
+
+
+Truth Tables
+
+AND / NAND / OR
+
+A	B	AND	OR	NAND
+
+0	0	0	0	1
+0	1	0	1	1
+1	0	0	1	1
+1	1	1	1	0
+
+
+NOT
+
+A	Y
+
+0	1
+1	0
+
+
+Result
+
+The truth tables of AND, OR, NOT and NAND gates were successfully verified.
