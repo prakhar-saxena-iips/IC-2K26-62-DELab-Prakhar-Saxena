@@ -1,63 +1,103 @@
-1\. Aim
+Experiment 1: Verification and Interpretation of Truth Tables for Logic Gates
 
-To verify and interpret the logic and truth table for OR gate using Diode Resistance Logic (DRL), NOT gate using Transistor and AND, NAND, NOR, EX-OR and EX-NOR gates using Resistor Transistor Logic (RTL) in Simulator 1, and to verify the truth tables of all seven logic gates in Simulator 2.
+1. Aim
 
-2\. Apparatus Required
+To verify and interpret the logic and truth tables of OR, NOT, AND, NAND, NOR, EX-OR and EX-NOR gates as described in Virtual Labs.
 
-Logic gate circuits, input switches, +5V DC supply, connecting wires and output indicator bulbs/LEDs.
+2. Apparatus Required
 
-3\. Theory
+Logic gate circuits, input switches, +5V DC power supply, connecting wires and output indicators (LEDs/bulbs).
 
-Logic gates are the basic building blocks of digital electronic circuits. They perform logical operations on one or more binary inputs to produce a single binary output. The seven logic gates studied are AND, OR, NOT, NAND, NOR, EX-OR and EX-NOR.
+3. Theory
 
-4\. Procedure
+Logic gates are the basic building blocks of digital electronic circuits. They perform logical operations on binary inputs (0 and 1) and produce a binary output. The seven logic gates studied in this experiment are AND, OR, NOT, NAND, NOR, EX-OR and EX-NOR.
 
-* Connect the +5V supply to the respective circuit in Simulator 1.
+4. Procedure
 
-* Apply different input combinations using the switches.
+1. Connect the required logic gate circuit to the +5V DC supply.
+2. Apply different input combinations using the input switches.
+3. Observe the output for each input combination.
+4. Repeat the process for all seven logic gates.
+5. Record the outputs and compare them with the expected truth tables.
 
-* Observe the output indicator for each combination.
+5. Truth Table
 
-* Repeat the procedure for all seven logic gates.
+AND Gate
 
-* In Simulator 2, enter the input combinations and corresponding outputs to verify each truth table.
+A, B → Y
 
-* Record the outputs and compare them with the expected truth tables.
+0, 0 → 0
+0, 1 → 0
+1, 0 → 0
+1, 1 → 1
 
-5\. Truth Table
+OR Gate
 
-| A   | B   | AND | OR  | NAND | NOR | EX-OR | EX-NOR |
-| --- | --- | --- | --- | ---- | --- | ----- | ------ |
-| 0   | 0   | 0   | 0   | 1    | 1   | 0     | 1      |
-| 0   | 1   | 0   | 1   | 1    | 0   | 1     | 0      |
-| 1   | 0   | 0   | 1   | 1    | 0   | 1     | 0      |
-| 1   | 1   | 1   | 1   | 0    | 0   | 0     | 1      |
+A, B → Y
 
-NOT gate truth table:
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 1
 
-| A   | Y   |
-| --- | --- |
-| 0   | 1   |
-| 1   | 0   |
+NAND Gate
 
-6\. Block Diagram
+A, B → Y
 
-Draw the logic symbols of all seven gates with their respective input and output terminals.
+0, 0 → 1
+0, 1 → 1
+1, 0 → 1
+1, 1 → 0
 
-7\. Precautions
+NOR Gate
 
-* Ensure correct power supply connections.
+A, B → Y
 
-* Apply all possible input combinations carefully.
+0, 0 → 1
+0, 1 → 0
+1, 0 → 0
+1, 1 → 0
 
-* Observe the output indicator properly.
+EX-OR Gate
 
-* Record the outputs accurately.
+A, B → Y
 
-8\. Observation
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 0
 
-The output obtained for each input combination was observed and recorded for all seven logic gates.
+EX-NOR Gate
 
-9\. Result
+A, B → Y
 
-The truth tables of AND, OR, NOT, NAND, NOR, EX-OR and EX-NOR gates were verified and interpreted successfully.
+0, 0 → 1
+0, 1 → 0
+1, 0 → 0
+1, 1 → 1
+
+NOT Gate
+
+A → Y
+
+0 → 1
+1 → 0
+
+6. Block Diagram
+
+Draw the logic symbols of all seven gates, showing their input and output terminals.
+
+7. Precautions
+
+1. Check the power supply connections before switching on the circuit.
+2. Apply all input combinations carefully.
+3. Observe the output indicators properly.
+4. Record the outputs accurately.
+
+8. Observation
+
+The outputs for all possible input combinations were observed and recorded for each logic gate.
+
+9. Result
+
+The truth tables of AND, OR, NOT, NAND, NOR, EX-OR and EX-NOR gates were verified and interpreted.
