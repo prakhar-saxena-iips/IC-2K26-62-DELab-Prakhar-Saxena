@@ -1,48 +1,63 @@
-Aim
+Experiment 3: Familiarization with ICs
 
-To familiarize ourselves with the general breadboard and its connections.
+1. Aim
 
-Apparatus
+To become familiar with commonly used Integrated Circuits (ICs), their pin configurations and their applications in digital logic circuits.
 
-Breadboard, jumper wires, +5V DC supply, LEDs and resistors.
+2. Apparatus Required
 
-Procedure
+Digital ICs, breadboard, +5V DC power supply, connecting wires, input switches and output indicators (LEDs).
 
-1. Identify the power rails and terminal strips of the breadboard.
+3. Theory
 
+An Integrated Circuit (IC) is an electronic circuit in which components such as transistors, resistors and diodes are fabricated on a single semiconductor chip. Digital ICs are used to perform logic operations and build digital systems. Each IC has a specific pin configuration, including power supply pins, ground pins, input pins and output pins.
 
-2. Connect +5V and GND to the power rails.
+Common digital logic ICs include:
 
+- 7408 – AND gate
+- 7432 – OR gate
+- 7404 – NOT gate
+- 7400 – NAND gate
+- 7402 – NOR gate
+- 7486 – EX-OR gate
+- 74266 – EX-NOR gate
 
-3. Connect the power rails using jumper wires if required.
+4. Procedure
 
+1. Observe the given ICs and note their identification numbers.
+2. Identify the notch or dot that indicates pin 1.
+3. Determine the pin numbers according to the IC pin configuration.
+4. Identify the input, output, VCC and ground pins using the relevant pin diagram.
+5. Place the selected IC on the breadboard and connect its supply pins correctly.
+6. Apply input combinations to the selected logic gate and observe its output.
 
-4. Place the components on the breadboard.
+5. Truth Table
 
+For the 7432 OR gate:
 
-5. Make series and parallel connections according to the circuit.
+A, B → Y
 
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 1
 
-6. Check the connections.
+6. Block Diagram
 
+Draw the logic symbol of an OR gate and label its two inputs (A, B) and output (Y).
 
-7. Observe the LED operation.
+7. Precautions
 
+1. Identify the IC number before making connections.
+2. Check the pin configuration carefully.
+3. Connect VCC and ground to the correct pins.
+4. Switch off the power supply before changing connections.
+5. Avoid short circuits between IC pins.
 
+8. Observation
 
-Virtual Labs specifically describes the breadboard as a solderless board and explains its power-rail and terminal-strip connections. 
+The identification numbers and pin configurations of commonly used digital ICs were studied. The OR gate IC was used to observe the relationship between inputs and output.
 
-Important Points
+9. Result
 
-Breadboard is used for temporary/prototype circuits.
-
-No soldering is required.
-
-Power rails are used for power supply.
-
-Terminal strips are used to connect components.
-
-The centre gap separates the two sides.
-Result
-
-The basic construction and connections of a general breadboard were successfully studied.
+Commonly used digital ICs, their pin configurations and their applications in logic circuits were studied.
