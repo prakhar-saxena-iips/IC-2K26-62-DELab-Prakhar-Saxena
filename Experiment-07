@@ -1,0 +1,92 @@
+Experiment 7: Realization of Logic Functions with the Help of Universal Gates (NAND and NOR)
+
+1. Aim
+
+To realize logic functions using universal gates NAND and NOR and verify their truth tables.
+
+2. Apparatus Required
+
+Breadboard, IC 7400 (NAND gate), IC 7402 (NOR gate), +5V DC power supply, connecting wires, input switches and output LEDs with resistors.
+
+3. Theory
+
+NAND and NOR gates are called universal gates because they can be used to implement different logic functions using only one type of gate.
+
+Using NAND gates, the AND, OR, EX-OR and EX-NOR functions can be realized. Similarly, using NOR gates, the OR, AND, EX-OR and EX-NOR functions can be realized.
+
+The Boolean expressions for these functions are:
+
+AND: Y = AB
+
+OR: Y = A + B
+
+EX-OR: Y = A'B + AB'
+
+EX-NOR: Y = AB + A'B'
+
+4. Procedure
+
+1. Place IC 7400 on the breadboard and connect its supply pins correctly.
+2. Connect the NAND gates according to the circuit diagrams for the required logic functions.
+3. Apply all possible combinations of inputs A and B.
+4. Observe and record the output for each combination.
+5. Repeat the procedure using IC 7402 and the corresponding NOR-gate circuit diagrams.
+6. Compare the observed outputs with the expected truth tables.
+
+5. Truth Table
+
+AND Gate
+
+A, B → Y
+
+0, 0 → 0
+0, 1 → 0
+1, 0 → 0
+1, 1 → 1
+
+OR Gate
+
+A, B → Y
+
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 1
+
+EX-OR Gate
+
+A, B → Y
+
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 0
+
+EX-NOR Gate
+
+A, B → Y
+
+0, 0 → 1
+0, 1 → 0
+1, 0 → 0
+1, 1 → 1
+
+6. Block Diagram
+
+Draw the NAND-based and NOR-based circuit diagrams for the logic functions shown in the Virtual Labs experiment.
+
+7. Precautions
+
+1. Check the IC pin configurations before making connections.
+2. Switch off the power supply before changing connections.
+3. Ensure that the inputs are properly connected.
+4. Avoid short circuits between the supply pins.
+5. Record the output for every input combination.
+
+8. Observation
+
+The outputs obtained using NAND and NOR gates were recorded and compared with the corresponding truth tables.
+
+9. Result
+
+Logic functions were realized using NAND and NOR universal gates, and their operations were verified using truth tables.
