@@ -1,45 +1,82 @@
-Familiarisation of ICs — 7404, 7432, 7408
+Experiment 4: Construction of Half and Full Adder Using XOR and NAND Gates and Verification of Their Operations
 
-Aim
+1. Aim
 
-To familiarize ourselves with the pin configuration and operation of IC 7404, 7432 and 7408.
+To construct half and full adders using XOR and NAND gates and verify their operations using truth tables.
 
-ICs Used
+2. Apparatus Required
 
-IC	Gate
+Breadboard, XOR gate IC 7486, NAND gate IC 7400, +5V DC power supply, connecting wires, input switches and output LEDs with resistors.
 
-7404	NOT
-7432	OR
-7408	AND
+3. Theory
 
+An adder is a combinational logic circuit used to perform binary addition.
 
-Procedure
+A Half Adder adds two binary inputs (A and B) and produces two outputs: Sum (S) and Carry (C).
 
-1. Identify the IC using its number and notch/marking.
+Sum: S = A ⊕ B
 
+Carry: C = AB
 
-2. Place the IC correctly on the breadboard.
+A Full Adder adds three binary inputs (A, B and Carry-in, Cin) and produces Sum (S) and Carry-out (Cout).
 
+Sum: S = A ⊕ B ⊕ Cin
 
-3. Identify its VCC and GND pins.
+Carry-out: Cout = AB + ACin + BCin
 
+XOR gates are used to generate the sum, while NAND gates can be connected to implement the carry logic.
 
-4. Connect VCC to +5V and GND to ground.
+4. Procedure
 
+1. Place the required XOR and NAND gate ICs on the breadboard.
+2. Connect the IC supply pins to +5V and ground according to their pin configurations.
+3. Construct the half-adder circuit using XOR and NAND gates as required.
+4. Apply all possible combinations of inputs A and B.
+5. Observe and record the Sum and Carry outputs.
+6. Construct the full-adder circuit using the required gates.
+7. Apply all possible combinations of A, B and Cin.
+8. Record the Sum and Carry-out outputs and compare them with the truth tables.
 
-5. Identify the input and output pins using the pin diagram.
+5. Truth Table
 
+Half Adder
 
-6. Give suitable input combinations.
+A, B → Sum, Carry
 
+0, 0 → 0, 0
+0, 1 → 1, 0
+1, 0 → 1, 0
+1, 1 → 0, 1
 
-7. Observe the output using LED.
+Full Adder
 
+A, B, Cin → Sum, Cout
 
-8. Compare the output with the corresponding truth table.
+0, 0, 0 → 0, 0
+0, 0, 1 → 1, 0
+0, 1, 0 → 1, 0
+0, 1, 1 → 0, 1
+1, 0, 0 → 1, 0
+1, 0, 1 → 0, 1
+1, 1, 0 → 0, 1
+1, 1, 1 → 1, 1
 
+6. Block Diagram
 
+Draw the half-adder and full-adder block diagrams, showing their inputs and outputs.
 
-Result
+7. Precautions
 
-The pin configuration and operation of IC 7404, 7432 and 7408 were successfully studied.
+1. Check the IC pin configurations before making connections.
+2. Ensure the power supply is switched off while changing connections.
+3. Avoid short circuits between the supply pins.
+4. Apply every input combination carefully.
+5. Observe the Sum and Carry outputs separately.
+
+8. Observation
+
+The Sum and Carry outputs were observed for all possible input combinations of the half adder and full adder.
+
+9. Result
+
+Half-adder and full-adder circuits were constructed using XOR and NAND gates, and their operations were verified using the truth tables.
