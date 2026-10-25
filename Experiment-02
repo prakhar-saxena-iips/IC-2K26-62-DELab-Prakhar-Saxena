@@ -1,45 +1,69 @@
-Aim
+Experiment 2: Verification and Interpretation of Truth Tables for NOR, EX-OR and EX-NOR Gates
 
-To verify and interpret the truth table of NOR, EX-OR and EX-NOR gates.
+1. Aim
 
-Apparatus
+To verify and interpret the truth tables of NOR, EX-OR and EX-NOR gates.
 
-Breadboard, IC 7402, IC 7486, IC 74266, LED, connecting wires and +5V supply.
+2. Apparatus Required
 
-Procedure
+Logic gate circuits, input switches, +5V DC power supply, connecting wires and output indicators (LEDs/bulbs).
 
-1. Place the required IC on the breadboard.
+3. Theory
 
+NOR, EX-OR and EX-NOR are digital logic gates. A NOR gate gives output 1 only when both inputs are 0. An EX-OR gate gives output 1 when the two inputs are different, whereas an EX-NOR gate gives output 1 when both inputs are the same.
 
-2. Connect the IC to +5V and GND.
+4. Procedure
 
+1. Connect the required logic gate circuit to the power supply.
+2. Apply all possible input combinations using the input switches.
+3. Observe and record the output for each combination.
+4. Repeat the procedure for NOR, EX-OR and EX-NOR gates.
+5. Compare the observed outputs with their truth tables.
 
-3. Connect inputs A and B through switches.
+5. Truth Table
 
+NOR Gate
 
-4. Connect the output to an LED through a resistor.
+A, B → Y
 
+0, 0 → 1
+0, 1 → 0
+1, 0 → 0
+1, 1 → 0
 
-5. Apply 00, 01, 10 and 11 input combinations.
+EX-OR Gate
 
+A, B → Y
 
-6. Observe and record the output.
+0, 0 → 0
+0, 1 → 1
+1, 0 → 1
+1, 1 → 0
 
+EX-NOR Gate
 
-7. Compare the observed output with the truth table.
+A, B → Y
 
+0, 0 → 1
+0, 1 → 0
+1, 0 → 0
+1, 1 → 1
 
+6. Block Diagram
 
-Truth Table
+Draw the logic symbols of NOR, EX-OR and EX-NOR gates, showing their input and output terminals.
 
-A	B	NOR	XOR	XNOR
+7. Precautions
 
-0	0	1	0	1
-0	1	0	1	0
-1	0	0	1	0
-1	1	0	0	1
+1. Check all circuit connections before switching on the power supply.
+2. Apply the input combinations carefully.
+3. Observe the output indicators properly.
+4. Record the outputs accurately.
 
+8. Observation
 
-Result
+The outputs for all possible input combinations were observed and recorded for the three logic gates.
 
-The truth tables of NOR, EX-OR and EX-NOR gates were successfully verified.
+9. Result
+
+The truth tables of NOR, EX-OR and EX-NOR gates were verified and interpreted successfully.
