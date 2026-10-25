@@ -1,69 +1,46 @@
-Experiment 2: Verification and Interpretation of Truth Tables for NOR, EX-OR and EX-NOR Gates
+Experiment 2: Familiarization with General Breadboard
 
 1. Aim
 
-To verify and interpret the truth tables of NOR, EX-OR and EX-NOR gates.
+To become familiar with the general-purpose breadboard and understand its structure and use in assembling electronic circuits.
 
 2. Apparatus Required
 
-Logic gate circuits, input switches, +5V DC power supply, connecting wires and output indicators (LEDs/bulbs).
+General-purpose breadboard, connecting wires, LEDs, resistors, battery or DC power supply.
 
 3. Theory
 
-NOR, EX-OR and EX-NOR are digital logic gates. A NOR gate gives output 1 only when both inputs are 0. An EX-OR gate gives output 1 when the two inputs are different, whereas an EX-NOR gate gives output 1 when both inputs are the same.
+A breadboard is a reusable board used to build and test electronic circuits without soldering. It contains holes connected internally by metal clips. The holes in each terminal strip are electrically connected in groups, while the two sides are separated by a central gap. The power rails are generally used to distribute positive supply voltage and ground across the board.
 
 4. Procedure
 
-1. Connect the required logic gate circuit to the power supply.
-2. Apply all possible input combinations using the input switches.
-3. Observe and record the output for each combination.
-4. Repeat the procedure for NOR, EX-OR and EX-NOR gates.
-5. Compare the observed outputs with their truth tables.
+1. Observe the layout of the breadboard and identify the terminal strips, central gap and power rails.
+2. Identify the groups of holes that are electrically connected internally.
+3. Connect the positive and negative terminals of the supply to the appropriate power rails.
+4. Insert the required electronic components into the breadboard.
+5. Use connecting wires to complete a simple LED circuit.
+6. Switch on the supply and observe the operation of the circuit.
 
 5. Truth Table
 
-NOR Gate
-
-A, B → Y
-
-0, 0 → 1
-0, 1 → 0
-1, 0 → 0
-1, 1 → 0
-
-EX-OR Gate
-
-A, B → Y
-
-0, 0 → 0
-0, 1 → 1
-1, 0 → 1
-1, 1 → 0
-
-EX-NOR Gate
-
-A, B → Y
-
-0, 0 → 1
-0, 1 → 0
-1, 0 → 0
-1, 1 → 1
+Not applicable, as this experiment is intended to study the structure and use of a breadboard rather than verify a logic function.
 
 6. Block Diagram
 
-Draw the logic symbols of NOR, EX-OR and EX-NOR gates, showing their input and output terminals.
+Draw the breadboard layout and mark the power rails, terminal strips and central gap.
 
 7. Precautions
 
-1. Check all circuit connections before switching on the power supply.
-2. Apply the input combinations carefully.
-3. Observe the output indicators properly.
-4. Record the outputs accurately.
+1. Ensure that the power supply is switched off while making connections.
+2. Insert component leads properly into the breadboard holes.
+3. Check the polarity of the LED and power supply.
+4. Avoid short circuits between the positive and negative supply rails.
+5. Do not apply a voltage higher than the component ratings.
 
 8. Observation
 
-The outputs for all possible input combinations were observed and recorded for the three logic gates.
+The internal connections of the breadboard were studied, and its terminal strips, power rails and central gap were identified.
 
 9. Result
 
-The truth tables of NOR, EX-OR and EX-NOR gates were verified and interpreted successfully.
+The structure and working of a general-purpose breadboard were studied and understood.
