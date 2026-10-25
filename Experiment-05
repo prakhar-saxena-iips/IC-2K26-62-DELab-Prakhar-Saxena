@@ -1,42 +1,80 @@
-Familiarisation of ICs — 7400, 7404, 7486
+Experiment 5: To Study and Verify Half and Full Subtractors
 
-Aim
+1. Aim
 
-To familiarize ourselves with the pin configuration and operation of IC 7400, 7404 and 7486.
+To study and verify the truth tables of half subtractor and full subtractor circuits.
 
-ICs Used
+2. Apparatus Required
 
-IC	Gate
+Breadboard, logic gate ICs, +5V DC power supply, connecting wires, input switches and output LEDs with resistors.
 
-7400	NAND
-7404	NOT
-7486	EX-OR/XOR
+3. Theory
 
+A subtractor is a combinational logic circuit used to perform binary subtraction.
 
-Procedure
+A Half Subtractor subtracts binary input B from input A and produces two outputs: Difference (D) and Borrow (Bout).
 
-1. Identify the required IC.
+Difference: D = A ⊕ B
 
+Borrow: Bout = A'B
 
-2. Place the IC correctly on the breadboard.
+A Full Subtractor subtracts B and the borrow-in (Bin) from A. It produces two outputs: Difference (D) and Borrow-out (Bout).
 
+Difference: D = A ⊕ B ⊕ Bin
 
-3. Connect VCC (+5V) and GND.
+Borrow-out: Bout = A'B + A'Bin + BBin
 
+4. Procedure
 
-4. Identify the input and output pins from the pin diagram.
+1. Place the required logic gate ICs on the breadboard.
+2. Connect the IC supply pins to +5V and ground according to their pin configurations.
+3. Construct the half-subtractor circuit using the required logic gates.
+4. Apply all possible combinations of inputs A and B.
+5. Observe and record the Difference and Borrow outputs.
+6. Construct the full-subtractor circuit using the required logic gates.
+7. Apply all possible combinations of A, B and Bin.
+8. Record the Difference and Borrow-out outputs and compare them with the truth tables.
 
+5. Truth Table
 
-5. Apply different input combinations.
+Half Subtractor
 
+A, B → Difference, Borrow
 
-6. Observe the output through LED.
+0, 0 → 0, 0
+0, 1 → 1, 1
+1, 0 → 1, 0
+1, 1 → 0, 0
 
+Full Subtractor
 
-7. Verify the output with the corresponding truth table.
+A, B, Bin → Difference, Bout
 
+0, 0, 0 → 0, 0
+0, 0, 1 → 1, 1
+0, 1, 0 → 1, 1
+0, 1, 1 → 0, 1
+1, 0, 0 → 1, 0
+1, 0, 1 → 0, 0
+1, 1, 0 → 0, 0
+1, 1, 1 → 1, 1
 
+6. Block Diagram
 
-Result
+Draw the half-subtractor and full-subtractor block diagrams, showing their inputs and outputs.
 
-The pin configuration and operation of IC 7400, 7404 and 7486 were successfully studied.
+7. Precautions
+
+1. Check the IC pin configurations before making connections.
+2. Switch off the power supply before changing connections.
+3. Ensure that all connections are secure.
+4. Apply every input combination carefully.
+5. Observe the Difference and Borrow outputs separately.
+
+8. Observation
+
+The Difference and Borrow outputs were observed for all possible input combinations of the half subtractor and full subtractor.
+
+9. Result
+
+The half-subtractor and full-subtractor circuits were studied, and their truth tables were verified.
