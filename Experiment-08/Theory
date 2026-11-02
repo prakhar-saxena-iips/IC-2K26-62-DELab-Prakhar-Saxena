@@ -1,0 +1,87 @@
+Experiment 8: Implementation of 4×1 Multiplexer and 1×4 Demultiplexer Using Logic Gates
+
+1. Aim
+
+To implement a 4×1 multiplexer and a 1×4 demultiplexer using logic gates and verify their truth tables.
+
+2. Apparatus Required
+
+Breadboard, AND, OR and NOT gate ICs, +5V DC power supply, connecting wires, input switches and output LEDs with resistors.
+
+3. Theory
+
+A Multiplexer (MUX) is a combinational logic circuit that selects one input from multiple input lines and transfers it to a single output line. It is also called a data selector.
+
+A 4×1 multiplexer has four data inputs (D0, D1, D2 and D3), two selection lines (S0 and S1) and one output (Y). The selection lines determine which input is connected to the output.
+
+Boolean expression:
+
+Y = D0S0'S1' + D1S0'S1 + D2S0S1' + D3S0S1
+
+A Demultiplexer (DEMUX) performs the reverse operation of a multiplexer. It takes a single input and transfers it to one of several output lines according to the selection inputs.
+
+A 1×4 demultiplexer has one data input (D), two selection lines (S0 and S1) and four outputs (Y0, Y1, Y2 and Y3).
+
+Boolean expressions:
+
+Y0 = DS0'S1'
+
+Y1 = DS0'S1
+
+Y2 = DS0S1'
+
+Y3 = DS0S1
+
+4. Procedure
+
+1. Place the required logic gate ICs on the breadboard.
+2. Connect the IC supply pins to +5V and ground according to their pin configurations.
+3. Construct the 4×1 multiplexer circuit using AND, OR and NOT gates.
+4. Apply different input combinations to the selection lines S0 and S1.
+5. Observe which data input is connected to the output Y.
+6. Construct the 1×4 demultiplexer circuit using the required logic gates.
+7. Apply the data input D and different combinations of selection lines S0 and S1.
+8. Observe the outputs Y0, Y1, Y2 and Y3.
+9. Record the outputs and compare them with the truth tables.
+
+5. Truth Table
+
+4×1 Multiplexer
+
+Selection Lines (S0, S1) → Output (Y)
+
+0, 0 → D0
+0, 1 → D1
+1, 0 → D2
+1, 1 → D3
+
+1×4 Demultiplexer
+
+Selection Lines (S0, S1) → Outputs (Y3, Y2, Y1, Y0)
+
+0, 0 → 0, 0, 0, D
+0, 1 → 0, 0, D, 0
+1, 0 → 0, D, 0, 0
+1, 1 → D, 0, 0, 0
+
+6. Block Diagram
+
+Draw the block diagram of a 4×1 multiplexer showing four data inputs, two selection lines and one output.
+
+Also draw the block diagram of a 1×4 demultiplexer showing one data input, two selection lines and four outputs.
+
+7. Precautions
+
+1. Check the IC pin configurations before making connections.
+2. Switch off the power supply before changing connections.
+3. Ensure all connections are properly made.
+4. Apply the selection inputs carefully.
+5. Observe the output lines correctly.
+
+8. Observation
+
+In the multiplexer, the selected data input was transferred to the single output. In the demultiplexer, the input data was transferred to the selected output line.
+
+9. Result
+
+The 4×1 multiplexer and 1×4 demultiplexer were implemented using logic gates, and their truth tables were verified successfully.
