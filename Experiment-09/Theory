@@ -1,0 +1,93 @@
+Experiment 9: Implementation and Verification of Decoder/De-multiplexer and Encoder Using Logic Gates
+
+1. Aim
+
+To implement and verify a decoder/de-multiplexer and an encoder using logic gates.
+
+2. Apparatus Required
+
+Breadboard, AND gate IC 7408, NOT gate IC 7404, OR gate IC 7432, +5V DC power supply, connecting wires, input switches and output LEDs with resistors.
+
+3. Theory
+
+A Decoder is a combinational logic circuit that converts binary information from n input lines into a maximum of 2ⁿ output lines. For each input combination, only one output line becomes HIGH.
+
+A 2×4 decoder has two inputs (A and B) and four outputs (Q0, Q1, Q2 and Q3).
+
+Its Boolean expressions are:
+
+Q0 = A'B'
+
+Q1 = A'B
+
+Q2 = AB'
+
+Q3 = AB
+
+A De-multiplexer is a combinational circuit that transfers a single input signal to one of several output lines according to the selection inputs.
+
+An Encoder performs the reverse operation of a decoder. It converts information from multiple input lines into a smaller number of output lines in binary form.
+
+A 4×2 encoder has four inputs (D0, D1, D2 and D3) and two outputs (Q1 and Q0). Only one input should be HIGH at a time.
+
+4. Procedure
+
+1. Place the required logic gate ICs on the breadboard.
+2. Connect the IC supply pins to +5V and ground according to their pin configurations.
+3. Construct the 2×4 decoder circuit using AND and NOT gates.
+4. Apply all possible combinations of inputs A and B.
+5. Observe and record the outputs Q0, Q1, Q2 and Q3.
+6. Construct the 4×2 encoder circuit using the required logic gates.
+7. Make one input HIGH at a time and keep the remaining inputs LOW.
+8. Observe and record the binary outputs Q1 and Q0.
+9. Compare the observed outputs with the respective truth tables.
+
+5. Truth Table
+
+2×4 Decoder / De-multiplexer
+
+A, B → Q0, Q1, Q2, Q3
+
+0, 0 → 1, 0, 0, 0
+
+0, 1 → 0, 1, 0, 0
+
+1, 0 → 0, 0, 1, 0
+
+1, 1 → 0, 0, 0, 1
+
+4×2 Encoder
+
+D3, D2, D1, D0 → Q1, Q0
+
+0, 0, 0, 1 → 0, 0
+
+0, 0, 1, 0 → 0, 1
+
+0, 1, 0, 0 → 1, 0
+
+1, 0, 0, 0 → 1, 1
+
+0, 0, 0, 0 → X, X
+
+6. Block Diagram
+
+Draw the block diagram and circuit diagram of a 2×4 decoder showing two inputs and four outputs.
+
+Also draw the block diagram of a 4×2 encoder showing four inputs and two outputs.
+
+7. Precautions
+
+1. Check the IC pin configurations before making connections.
+2. Switch off the power supply before changing connections.
+3. Ensure all connections are secure.
+4. In the encoder, keep only one input HIGH at a time.
+5. Observe the output indicators carefully.
+
+8. Observation
+
+In the decoder, only one output was HIGH for each input combination. In the encoder, the active input was converted into its corresponding binary output.
+
+9. Result
+
+The 2×4 decoder/de-multiplexer and 4×2 encoder were implemented using logic gates, and their truth tables were verified successfully.
